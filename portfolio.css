@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 86px;
 }
 
 h2 {
@@ -41,7 +41,9 @@ img {
   border: --box-shadow;
   margin: auto;
 }
-
+.hero {
+  padding: 100px 0;
+}
 .heared {
   font-size: 90px;
 }
@@ -64,6 +66,14 @@ img {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-size: 20px;
+  padding: 12px 20px;
+  line-height: 25px;
+}
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
 }
 
 .about-link {
@@ -71,10 +81,8 @@ img {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
+body#about {
+  background-color: #f1f7b4;
 }
 
 .about-paragraphs {
