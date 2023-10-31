@@ -152,6 +152,10 @@ body#about {
   line-height: 27px;
   padding: 15px 30px;
 }
+.work {
+  background-color: rgb(132, 240, 199);
+  padding: 0%;
+}
 footer {
   margin: 60px 0;
 }
